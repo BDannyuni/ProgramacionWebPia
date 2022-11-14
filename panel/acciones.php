@@ -96,9 +96,9 @@ function subirFoto() {
 
     $carpeta = __DIR__.'/../assets/img/Productos/';
 
-    $archivo = $carpeta.$_FILES['foto']['name'];
+    $archivo = $carpeta.$_FILES['Foto']['name'];
 
-    move_uploaded_file($_FILES['foto']['tmp_name'],$archivo);
+    move_uploaded_file($_FILES['Foto']['tmp_name'],$archivo);
 
-    return $_FILES['foto']['name'];
+    return $_FILES['Foto']['name'];
 }
