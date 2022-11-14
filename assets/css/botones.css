@@ -1,0 +1,189 @@
+.buttons{
+    display: flex;
+    flex-direction: column;    
+    color: #ffffff;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 32px;
+}
+
+/*btn Uno*/
+
+.btn-1{
+   /* background: #039be5;*/
+    background: #39B200;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    padding-bottom: 10px;
+}
+
+.btn-1::after, .btn-1::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+   /* background: #039be5;*/
+    background: #61A93F;
+    color: #ffffff;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+    
+}
+
+.btn-1:hover{
+    transform: translate(-12px, -12px);
+    color: #ffffff;
+}
+
+.btn-1:hover::after{
+    transform: translate(6px, 6px);
+    color: #ffffff;
+}
+
+.btn-1:hover::before{
+    transform: translate(12px, 12px);
+    color: #ffffff;
+}
+
+ 
+
+ 
+/*btn Dos*/
+
+ .btn-2{
+     /* background: #039be5;*/
+      background: #b20000;
+      color: #ffffff;
+      border-radius: 50px;
+      transition: transform 0.3s ease;
+      padding-bottom: 10px;
+  }
+  
+  .btn-2::after, .btn-2::before{
+      content: "";
+      position: absolute;
+      opacity: 0.3;
+     /* background: #039be5;*/
+      background: #a93f3f;
+      color: #ffffff;
+      border-radius: inherit;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: transform 0.3s ease;
+      
+  }
+  
+  .btn-2:hover{
+      transform: translate(-12px, -12px);
+      color: #ffffff;
+  }
+  
+  .btn-2:hover::after{
+      transform: translate(6px, 6px);
+      color: #ffffff;
+  }
+  
+  .btn-2:hover::before{
+      transform: translate(12px, 12px);
+      color: #ffffff;
+  }
+  
+ /*btn Tres*/
+
+.btn-3{
+    /* background: #039be5;*/
+     background: #1b00b2;
+     color: #ffffff;
+     border-radius: 50px;
+     transition: transform 0.3s ease;
+     padding-bottom: 10px;
+ }
+ 
+ .btn-3::after, .btn-1::before{
+     content: "";
+     position: absolute;
+     opacity: 0.3;
+    /* background: #039be5;*/
+     background: #4a3fa9;
+     color: #ffffff;
+     border-radius: inherit;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     transition: transform 0.3s ease;
+     
+ }
+ 
+ .btn-3:hover{
+     transform: translate(-12px, -12px);
+     color: #ffffff;
+ }
+ 
+ .btn-3:hover::after{
+     transform: translate(6px, 6px);
+     color: #ffffff;
+ }
+ 
+ .btn-3:hover::before{
+     transform: translate(12px, 12px);
+     color: #ffffff;
+ }
+
+
+ /*btn Cuatro*/
+
+.btn-4{
+    /* background: #039be5;*/
+     background: #1b00b2;
+     color: #ffffff;
+     border-radius: 50px;
+     transition: transform 0.3s ease;
+     padding-bottom: 5px;
+ }
+ 
+ .btn-4::after, .btn-1::before{
+     content: "";
+     position: absolute;
+     opacity: 0.3;
+    /* background: #039be5;*/
+     background: #4a3fa9;
+     color: #ffffff;
+     border-radius: inherit;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     transition: transform 0.3s ease;
+     
+ }
+ 
+ .btn-4:hover{
+     transform: translate(-12px, -12px);
+     color: #ffffff;
+ }
+ 
+ .btn-4:hover::after{
+     transform: translate(6px, 6px);
+     color: #ffffff;
+ }
+ 
+ .btn-4:hover::before{
+     transform: translate(12px, 12px);
+     color: #ffffff;
+ }
